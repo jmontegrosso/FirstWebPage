@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<head>
+    <meta charset="UTF-8">
+    <title>GAUDI TRAVELS</title>
+    <!-- Meta del Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS propio -->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!-- Fuentes de Google Orbitron / Fira Sans Condensed / Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap" rel="stylesheet">
+    <!-- JS unidad 7 -->
+    <!-- <script type="text/javascript" src="js/unidad7.js"></script> -->
+</head>
+<body>
+    <header id="cabecera">
+        <div id="marca_cabecera">
+            <h1>Gaudí Travels</h1>
+        </div>
+        <!-- <nav id="botonera_principal">
+            <ul>
+                <li><a href="#seccion_destinos">Destinos</a></li>
+                <li><a href="#seccion_servicios">Servicios</a></li>
+                <li><a href="#seccion_nosotros">Nosotros</a></li>
+                <li><a href="#seccion_contacto">Contacto</a></li>
+            </ul>
+        </nav> -->
+        <!-- id="botonera_principal"  -->
+        <nav class="navbar navbar-expand-sm">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" name="button" data-bs-target="#opciones">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+            </button>
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#seccion_destinos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#seccion_servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#seccion_nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#seccion_contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>      
+          
+          <!-- <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid p-0">
+                <div class="navbar-brand p-0" id="marca"><img class="img-fluid" src="images/marca6.png" alt=""></div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="menu_desplegable" class="navbar-toggler-icon bg-light"></span>
+                  </button>
+              <div class="collapse navbar-collapse botonera_principal" id="navbarSupportedContent">
+                <ul class="navbar-nav m-0">
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_inicio" href="#inicio">Inicio</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_comofunciona" href="#como_funciona">Como funciona</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_productos" href="#productos">Productos</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_testimonios" href="#testimonios">Testimonios</a></li>
+                  <li class="nav-item p-0" id="li_carrito"><div class="d-flex"><button class="me-2" id="carrito"><img src="images/carrito.png" alt="Carrito de compras"></button></div></li>
+               </ul>
+              </div>
+            </div>
+        </div>
+          </nav>           -->
+
+        <!-- <nav class="navbar navbar-expand-sm bg-light" id="botonera_principal">
+            <div class="container-fluid">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> -->
+                <!-- <a class="nav-item" href="#">Destinos</a> -->
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#seccion_destinos">Destinos</a></li>                    
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#seccion_servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#seccion_nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#seccion_contacto">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav> -->
+
+          <!-- botonera_principal -->
+
+          <!-- <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid p-0">
+
+                <div class="navbar-brand p-0" id="marca"><img class="img-fluid" src="images/marca6.png" alt=""></div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="menu_desplegable" class="navbar-toggler-icon bg-light"></span>
+                  </button>
+
+              <div class="collapse navbar-collapse botonera_principal" id="navbarSupportedContent">
+                <ul class="navbar-nav m-0">
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_inicio" href="#inicio">Inicio</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_comofunciona" href="#como_funciona">Como funciona</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_productos" href="#productos">Productos</a></li>
+                  <li class="nav-item mt-lg-3"><a class="nav-link active" aria-current="page" id="boton_testimonios" href="#testimonios">Testimonios</a></li>
+                  <li class="nav-item p-0" id="li_carrito"><div class="d-flex"><button class="me-2" id="carrito"><img src="images/carrito.png" alt="Carrito de compras"></button></div></li>
+               </ul>
+              </div>
+            </div>
+        </div>
+          </nav> -->
+
+    </header>
+        <section id="seccion_destinos">
+
+            <h2 class="titulo_seccion">Destinos</h2>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/imagen1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/imagen3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/imagen3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+            <!-- 
+            <div id="destino_exotico">
+                <img src="multimedia/imagen1.jpg" id="destino_img_exotico" class="img-fluid rounded" alt="...">
+                <article id="destino_text_exotico" class="rounded">
+                    <h3 class="titulo_caja">Aventura y Exótico</h3>
+                    <p class="parrafo_caja">Expediciones a lugares poco convencionales, para los que buscan experiencias diferentes.</p>
+                </article> 
+            </div>
+            <div id="destino_playa">
+                <img src="multimedia/imagen2.jpg" id="destino_img_playa" class="img-fluid rounded" alt="...">
+                <article id="destino_text_playa" class="rounded">
+                    <h3 class="titulo_caja">Playa y Relax</h3>
+                    <p class="parrafo_caja">Los mejores destinos para que te puedas desconectar, y disfrutar del mar.</p>
+                </article> 
+            </div>           
+            <div id="destino_ciudad">
+                <img src="multimedia/imagen3.jpg" id="destino_img_ciudad" class="img-fluid rounded" alt="...">
+                <article id="destino_text_ciudad" class="rounded">
+                    <h3 class="titulo_caja">Ciudad y Cultura</h3>
+                    <p class="parrafo_caja">Destinos que nunca pierden su encanto, los más visitados.</p>
+                </article> 
+            </div> -->
+        </section>
+        <section id="seccion_servicios">
+            <h2 class="titulo_seccion">Servicios</h2>
+
+            <!-- Inicio DOM js -->
+            <div id="caja_js">
+                <a href="#caja_js" onclick="mostrarTextoJs()">
+                   <div id="prueba_js" class="rounded"> 
+                        <h3>Información</h3>
+                        <script type="text/javascript">
+                            document.write('<p> Nombre: '+nombreUsuario+'</p>')
+                            document.write('<p class="orange_text">Gusta de viajar: ' +esViajero+ '</p>')
+                            document.write('<p>Tipo de viajes: ' +tipoViaje+ '</p><p>Newsletter: '+recibeInformacion+'</p>')
+                            document.write('<p class="orange_text">E-mail: '+eMail+'</p>')                    
+                        </script>
+                    </div>
+                </a>
+                <article id="servicio_text_js" class="rounded">
+                    <h3 class="titulo_caja">Paseos y Excursiones</h3>
+                    <p class="parrafo_caja">Esto es un ejemplo del uso de js realizado para la unidad N°7.</p>
+                </article>    
+            </div>    
+            <!-- Fin DOM js -->
+
+            <div id="servicio_scooter">
+                <a href="#servicio_scooter" onclick="mostrarTextoScooter()">
+                    <div id="servicio_img_scooter" class="rounded"></div>
+                </a>
+                <article id="servicio_text_scooter" class="rounded">
+                    <h3 class="titulo_caja">Alquiler de E-Scooter</h3>
+                    <p class="parrafo_caja">Brindamos el servicio de alquiler de scooters eléctricos de última generación en distintas ciudades.</p>
+                </article>
+            </div>
+            <div id="servicio_pasaporte">
+                <a href="#servicio_pasaporte" onclick="mostrarTextoPasaporte()">
+                    <div id="servicio_img_pasaporte" class="rounded"></div>
+                </a>
+                <article id="servicio_text_pasaporte" class="rounded">
+                    <h3 class="titulo_caja">Renovación de Visas</h3>
+                    <p class="parrafo_caja">Te asesoramos para la obtención de visa de USA y para tramitar la ciudadanía italiana.</p>
+                </article>
+            </div>
+        </section>
+        <section id="seccion_nosotros">
+            <div id="nosotros" class="container-fluid">
+                <h5 class="titulo_seccion">Nosotros</h5>        
+                <div class="row">
+                    <div id="imagen_nosotros" class="col-12">
+
+                        <!-- Inicio Carousel -->
+                        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- El active es el que me va a mostrar primero -->
+                            <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="multimedia/imagen7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                            <img src="multimedia/imagen8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                            <img src="multimedia/imagen9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                        <!-- Fin Carousel -->
+
+                    </div>
+                    <div id="texto_nosotros" class="col-12">
+                        <p>Somos Jere y Cintia, una pareja de argentinos que, impulsados por el sueño de vivir de cerca otra cultura, decidimos emigrar y formar un equipo de trabajo, combinando nuestros conocimientos profesionales (Turismo y Desarrollo web) con el objetivo de brindar información valiosa a quienes desean recorrer diferentes regiones de Italia y otros países vecinos.</p> 
+                        <p>Nos especializamos en los viajes a medida, en buscar experiencias diferentes y descubrir aquellos rincones poco conocidos.</p>
+                        <p>Somos amantes de los lugares con historia y naturaleza y soñamos con un turismo sustentable. Nuestro servicio se basa en la presencia en todo el recorrido y en el post viaje, donde realizamos una autoevaluación teniendo en cuenta la experiencia vivida por el cliente según los objetivos.</p>
+                        <p>¡Esperamos acompañarte pronto en tu nuevo destino!</p> 
+                    </div>
+                </div>
+            </div>    
+        </section>      
+        <section id="seccion_contacto">
+            <div id="contacto" class="container-fluid">
+                <h5 class="titulo_seccion">Contacto</h5>
+                <div id="cont_mod" class="row">
+                    <div id="cont1" class="col-sm-6 col-lg-4">
+                        <!-- Inicio Card -->
+                        <!-- <div class="card" style="width: 100%;"> -->
+                            <img id="img_contacto" src="multimedia/imagen6.jpg" class="img-fluid rounded" alt="...">
+                            <!-- <div class="card-body">
+                                <p class="card-text">A la brevedad te estaremos contactando para asesorarte.</p>
+                            </div>
+                        </div> -->
+                        <!-- Fin Card -->
+                    </div>
+                    <div id="cont2" class="col-sm-6 col-lg-8">
+                        <!-- Inicio Formulario -->    
+                        <form action="#contenido3">
+                            <input type="text" placeholder="Nombre" class="form-control" required>
+                            <input type="text" placeholder="Apellido" class="form-control" required>
+                            <input type="number" min="1" max="100" placeholder="Edad" class="form-control" required>
+                            <input type="email" placeholder="Correo Electronico" class="form-control" required>
+                            <textarea class="form-control" rows="1" placeholder="Mensaje"></textarea>
+                            <input type="submit" class="btn btn-success">
+                        </form>
+                        <!-- Fin Formulario -->
+                    </div>
+                </div>
+            </div>
+        </section>            
+    <footer id="pie">
+        <div id="marca_pie">
+            <h2>Gaudí Travels</h3>
+            <h6>Nº Leg. 12345</h6>
+        </div>
+        <nav id="botonera_pie">
+            <ul>
+                <li><a href="#pie" data-bs-toggle="modal" data-bs-target="#condGenerales">Condiciones generales</a></li>
+                <li><a href="#pie" data-bs-toggle="modal" data-bs-target="#privacidad">Uso y privacidad del sitio</a></li>
+                <li><a href="#pie" data-bs-toggle="modal" data-bs-target="#sumate">¡Súmate a Gaudí!</a></li>
+            </ul>
+        </nav>
+
+        <!-- Modal Condiciones generales -->
+        <div class="modal fade" id="condGenerales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Condiciones generales</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Fin Modal Condiciones generales -->
+
+        <!-- Modal Uso y privacidad del sitio -->
+        <div class="modal fade" id="privacidad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Uso y privacidad del sitio</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Fin Modal Uso y privacidad del sitio -->
+
+        <!-- Modal ¡Súmate a Gaudí! -->
+        <div class="modal fade" id="sumate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">¡Súmate a Gaudí!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Fin Modal ¡Súmate a Gaudí! -->
+        <section id="diseniador">
+            <h6>Diseñado con ♥ por Jey</h6>  
+        </section>                        
+    </footer>
+    <!-- JS uso del DOM -->
+    <script type="text/javascript" src="js/unidad8.js"></script>    
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
